@@ -3,7 +3,6 @@ import { v4 as uuidv4 } from "uuid";
 import "../css/Note.scss";
 import Note from "./Note";
 import CreateNote from "./CreateNote";
-import { Table } from "@mui/material";
 
 export default function Notes() {
   const [inputText, setInputText] = useState("");
